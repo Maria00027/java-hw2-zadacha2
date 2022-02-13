@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class main {
+public class Main {
     public static void main(String[] args) {
         int balance = 300;
         int replenishBalance = 1500;
@@ -9,6 +7,6 @@ public class main {
 
         int overallBalance = replenishBalance + balance + bonus;
         System.out.println("Общий баланс:" + overallBalance);
-        System.out.println("бонус:" + bonus);
+        System.out.println("Бонус:" + bonus);
     }
 }
